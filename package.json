@@ -1,0 +1,21 @@
+{
+  "name": "discord-membership-bot",
+  "version": "1.0.0",
+  "description": "Subscription role sync and private store order alerts for Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node --env-file-if-exists=.env src/index.js",
+    "demo": "node --env-file-if-exists=.env src/index.js --dry-run",
+    "register-commands": "node --env-file-if-exists=.env scripts/register-commands.js",
+    "send-test-webhook": "node --env-file-if-exists=.env scripts/send-test-webhook.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "dependencies": {
+    "discord.js": "^14.28.1"
+  }
+}
