@@ -1,5 +1,7 @@
 # discord-membership-bot
 
+[![Tests](https://github.com/Tthanh2k6/discord-membership-bot/actions/workflows/test.yml/badge.svg)](https://github.com/Tthanh2k6/discord-membership-bot/actions/workflows/test.yml)
+
 A Discord bot that gives a paid role to members with an active subscription and takes it away when the paid period ends. It also posts new store orders into a channel.
 
 I built it as a working example of a request I keep seeing on freelance boards: "connect my Whop / Stripe / Stan Store subscriptions to my Discord server so I stop adding and kicking people by hand".
