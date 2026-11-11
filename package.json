@@ -11,7 +11,7 @@
     "send-test-webhook": "node --env-file-if-exists=.env scripts/send-test-webhook.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Trung Thanh Tran",
   "license": "MIT",
   "type": "module",
   "engines": { "node": ">=24" },
